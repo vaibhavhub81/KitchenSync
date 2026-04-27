@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ord-101",
+    "tokenNumber": "A-042",
+    "restaurantId": "1",
+    "restaurantName": "Suvarnarekha Dining",
+    "items": [
+      {
+        "menuItem": { "id": "1-1", "name": "Puran Poli Thali", "price": 350, "category": "Thalis", "available": true, "description": "Traditional sweet flatbread thali", "prepTime": 20, "itemType": "special" },
+        "quantity": 2
+      }
+    ],
+    "total": 700,
+    "status": "preparing",
+    "createdAt": "2024-01-15T14:30:00Z",
+    "acceptedAt": "2024-01-15T14:32:00Z",
+    "preparingAt": "2024-01-15T14:33:00Z",
+    "customerId": "cust-001",
+    "notifyOnArrival": true,
+    "hasArrived": false,
+    "estimatedPrepTime": 15,
+    "paymentCompleted": true
+  },
+  {
+    "id": "ord-102",
+    "tokenNumber": "V-012",
+    "restaurantId": "2",
+    "restaurantName": "Vaishali",
+    "items": [
+      {
+        "menuItem": { "id": "2-1", "name": "SPDP", "price": 110, "category": "Snacks", "available": true, "description": "Sev Puri Dahi Puri", "prepTime": 5, "itemType": "normal" },
+        "quantity": 3
+      }
+    ],
+    "total": 330,
+    "status": "ready",
+    "createdAt": "2024-01-15T15:00:00Z",
+    "acceptedAt": "2024-01-15T15:02:00Z",
+    "preparingAt": "2024-01-15T15:03:00Z",
+    "readyAt": "2024-01-15T15:15:00Z",
+    "customerId": "cust-002",
+    "notifyOnArrival": true,
+    "hasArrived": true,
+    "estimatedPrepTime": 10,
+    "paymentCompleted": true
+  }
+]

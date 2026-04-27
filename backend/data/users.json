@@ -1,0 +1,6 @@
+[
+  { "id": "cust-001", "name": "John Doe", "email": "john@example.com", "phone": "+91 9876543210", "role": "customer" },
+  { "id": "cust-002", "name": "Jane Smith", "email": "jane@example.com", "phone": "+91 9876543211", "role": "customer" },
+  { "id": "rest-001", "name": "Mario Rossi", "email": "mario@bellaitalia.com", "phone": "+91 9876543212", "role": "restaurant" },
+  { "id": "admin-001", "name": "Admin User", "email": "admin@kitchensync.com", "phone": "+91 9876543213", "role": "admin" }
+]

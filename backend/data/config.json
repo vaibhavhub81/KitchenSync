@@ -1,0 +1,6 @@
+{
+  "busyThreshold": 60,
+  "overloadedThreshold": 85,
+  "bufferTime": 3,
+  "acceptanceTimeout": 10
+}

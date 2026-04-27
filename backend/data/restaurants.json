@@ -1,0 +1,452 @@
+[
+  {
+    "id": "1",
+    "name": "Suvarnarekha Dining",
+    "cuisine": "Maharashtrian",
+    "waitTime": 25,
+    "status": "busy",
+    "image": "/restaurant-1.jpg",
+    "workloadPercent": 75,
+    "lat": 18.513,
+    "lng": 73.84,
+    "area": "Kothrud",
+    "rating": 4.5,
+    "menu": [
+      { "id": "1-1", "name": "Puran Poli Thali", "price": 350, "category": "Thalis", "available": true, "description": "Traditional sweet flatbread thali", "prepTime": 20, "itemType": "special" },
+      { "id": "1-2", "name": "Pitla Bhakri", "price": 180, "category": "Mains", "available": true, "description": "Gram flour curry with sorghum bread", "prepTime": 15, "itemType": "normal" },
+      { "id": "1-3", "name": "Modak (5pcs)", "price": 120, "category": "Desserts", "available": true, "description": "Steamed sweet dumplings", "prepTime": 25, "itemType": "special" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Vaishali",
+    "cuisine": "South Indian",
+    "waitTime": 45,
+    "status": "overloaded",
+    "image": "/restaurant-2.jpg",
+    "workloadPercent": 95,
+    "lat": 18.522,
+    "lng": 73.841,
+    "area": "FC Road",
+    "rating": 4.8,
+    "menu": [
+      { "id": "2-1", "name": "SPDP", "price": 110, "category": "Snacks", "available": true, "description": "Sev Puri Dahi Puri", "prepTime": 5, "itemType": "normal" },
+      { "id": "2-2", "name": "Onion Uttapam", "price": 140, "category": "Breakfast", "available": true, "description": "Thick savory pancake", "prepTime": 10, "itemType": "normal" },
+      { "id": "2-3", "name": "Filter Coffee", "price": 50, "category": "Beverages", "available": true, "description": "Strong South Indian coffee", "prepTime": 3, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Goodluck Cafe",
+    "cuisine": "Irani",
+    "waitTime": 30,
+    "status": "busy",
+    "image": "/restaurant-3.jpg",
+    "workloadPercent": 80,
+    "lat": 18.52,
+    "lng": 73.84,
+    "area": "Deccan Gymkhana",
+    "rating": 4.6,
+    "menu": [
+      { "id": "3-1", "name": "Bun Maska", "price": 60, "category": "Snacks", "available": true, "description": "Buttered bun", "prepTime": 2, "itemType": "normal" },
+      { "id": "3-2", "name": "Keema Ghotala", "price": 280, "category": "Mains", "available": true, "description": "Minced mutton with eggs", "prepTime": 15, "itemType": "special" },
+      { "id": "3-3", "name": "Irani Chai", "price": 40, "category": "Beverages", "available": true, "description": "Rich milky tea", "prepTime": 3, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Blue Nile",
+    "cuisine": "Mughlai",
+    "waitTime": 20,
+    "status": "normal",
+    "image": "/restaurant-4.jpg",
+    "workloadPercent": 40,
+    "lat": 18.528,
+    "lng": 73.87,
+    "area": "Camp",
+    "rating": 4.4,
+    "menu": [
+      { "id": "4-1", "name": "Mutton Biryani", "price": 450, "category": "Mains", "available": true, "description": "Fragrant long-grain rice biryani", "prepTime": 25, "itemType": "special" },
+      { "id": "4-2", "name": "Chicken Tikka", "price": 320, "category": "Appetizers", "available": true, "description": "Grilled marinated chicken", "prepTime": 15, "itemType": "normal" },
+      { "id": "4-3", "name": "Caramel Custard", "price": 120, "category": "Desserts", "available": true, "description": "Classic creamy dessert", "prepTime": 5, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Shivar Garden",
+    "cuisine": "Multi-cuisine",
+    "waitTime": 15,
+    "status": "normal",
+    "image": "/restaurant-5.jpg",
+    "workloadPercent": 30,
+    "lat": 18.59,
+    "lng": 73.78,
+    "area": "Wakad",
+    "rating": 4.2,
+    "menu": [
+      { "id": "5-1", "name": "Paneer Tikka Masala", "price": 310, "category": "Mains", "available": true, "description": "Spicy paneer gravy", "prepTime": 15, "itemType": "normal" },
+      { "id": "5-2", "name": "Veg Crispy", "price": 220, "category": "Appetizers", "available": true, "description": "Crispy fried vegetables", "prepTime": 10, "itemType": "normal" },
+      { "id": "5-3", "name": "Jeera Rice", "price": 180, "category": "Rice", "available": true, "description": "Cumin flavored rice", "prepTime": 10, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Wadeshwar",
+    "cuisine": "South Indian",
+    "waitTime": 10,
+    "status": "normal",
+    "image": "/restaurant-6.jpg",
+    "workloadPercent": 20,
+    "lat": 18.522,
+    "lng": 73.84,
+    "area": "FC Road",
+    "rating": 4.5,
+    "menu": [
+      { "id": "6-1", "name": "Sponge Dosa", "price": 130, "category": "Breakfast", "available": true, "description": "Soft fluffy dosas", "prepTime": 8, "itemType": "normal" },
+      { "id": "6-2", "name": "Rava Masala Dosa", "price": 160, "category": "Breakfast", "available": true, "description": "Crispy semolina dosa", "prepTime": 12, "itemType": "normal" },
+      { "id": "6-3", "name": "Medu Vada", "price": 90, "category": "Snacks", "available": true, "description": "Savory lentil donuts", "prepTime": 7, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Evershine Foods",
+    "cuisine": "North Indian",
+    "waitTime": 35,
+    "status": "busy",
+    "image": "/restaurant-1.jpg",
+    "workloadPercent": 65,
+    "lat": 18.56,
+    "lng": 73.91,
+    "area": "Viman Nagar",
+    "rating": 4.1,
+    "menu": [
+      { "id": "7-1", "name": "Dal Makhani", "price": 280, "category": "Mains", "available": true, "description": "Slow-cooked black lentils", "prepTime": 20, "itemType": "special" },
+      { "id": "7-2", "name": "Butter Naan", "price": 50, "category": "Breads", "available": true, "description": "Leavened oven-baked flatbread", "prepTime": 5, "itemType": "normal" },
+      { "id": "7-3", "name": "Chicken Curry", "price": 340, "category": "Mains", "available": true, "description": "Homestyle chicken gravy", "prepTime": 15, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "The Place",
+    "cuisine": "Sizzlers",
+    "waitTime": 50,
+    "status": "overloaded",
+    "image": "/restaurant-2.jpg",
+    "workloadPercent": 90,
+    "lat": 18.52,
+    "lng": 73.87,
+    "area": "Camp",
+    "rating": 4.7,
+    "menu": [
+      { "id": "8-1", "name": "Chicken Sizzler", "price": 650, "category": "Sizzlers", "available": true, "description": "Grilled chicken with veggies", "prepTime": 30, "itemType": "special" },
+      { "id": "8-2", "name": "Veg Sizzler", "price": 550, "category": "Sizzlers", "available": true, "description": "Grilled cottage cheese with veggies", "prepTime": 25, "itemType": "special" },
+      { "id": "8-3", "name": "Chocolate Walnut Brownie", "price": 250, "category": "Desserts", "available": true, "description": "Hot brownie with sizzle", "prepTime": 10, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Fish Curry Rice",
+    "cuisine": "Malvani",
+    "waitTime": 25,
+    "status": "busy",
+    "image": "/restaurant-3.jpg",
+    "workloadPercent": 70,
+    "lat": 18.51,
+    "lng": 73.83,
+    "area": "Erandwane",
+    "rating": 4.6,
+    "menu": [
+      { "id": "9-1", "name": "Surmai Thali", "price": 550, "category": "Thalis", "available": true, "description": "King fish curry and fry thali", "prepTime": 20, "itemType": "special" },
+      { "id": "9-2", "name": "Sol Kadhi", "price": 60, "category": "Beverages", "available": true, "description": "Kokum coconut drink", "prepTime": 2, "itemType": "normal" },
+      { "id": "9-3", "name": "Prawns Fry", "price": 420, "category": "Appetizers", "available": true, "description": "Crispy fried prawns", "prepTime": 15, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Durvankur",
+    "cuisine": "Maharashtrian",
+    "waitTime": 40,
+    "status": "busy",
+    "image": "/restaurant-4.jpg",
+    "workloadPercent": 85,
+    "lat": 18.51,
+    "lng": 73.85,
+    "area": "Sadashiv Peth",
+    "rating": 4.4,
+    "menu": [
+      { "id": "10-1", "name": "Maharashtrian Thali", "price": 380, "category": "Thalis", "available": true, "description": "Unlimited traditional thali", "prepTime": 10, "itemType": "normal" },
+      { "id": "10-2", "name": "Khamang Kakdi", "price": 80, "category": "Salads", "available": true, "description": "Cucumber peanut salad", "prepTime": 5, "itemType": "normal" },
+      { "id": "10-3", "name": "Basundi", "price": 100, "category": "Desserts", "available": true, "description": "Thickened sweetened milk", "prepTime": 5, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "George Restaurant",
+    "cuisine": "Irani/Mughlai",
+    "waitTime": 20,
+    "status": "normal",
+    "image": "/restaurant-5.jpg",
+    "workloadPercent": 45,
+    "lat": 18.525,
+    "lng": 73.875,
+    "area": "Camp",
+    "rating": 4.3,
+    "menu": [
+      { "id": "11-1", "name": "Chicken Biryani", "price": 380, "category": "Mains", "available": true, "description": "Famous Camp-style biryani", "prepTime": 20, "itemType": "special" },
+      { "id": "11-2", "name": "Brain Fry", "price": 320, "category": "Appetizers", "available": true, "description": "Masala brain fry", "prepTime": 15, "itemType": "special" },
+      { "id": "11-3", "name": "Masala Chai", "price": 50, "category": "Beverages", "available": true, "description": "Spiced milky tea", "prepTime": 5, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Sukanta",
+    "cuisine": "Gujarati/Rajasthani",
+    "waitTime": 35,
+    "status": "busy",
+    "image": "/restaurant-6.jpg",
+    "workloadPercent": 75,
+    "lat": 18.52,
+    "lng": 73.84,
+    "area": "Deccan",
+    "rating": 4.5,
+    "menu": [
+      { "id": "12-1", "name": "Sukanta Thali", "price": 450, "category": "Thalis", "available": true, "description": "Royal unlimited thali", "prepTime": 10, "itemType": "normal" },
+      { "id": "12-2", "name": "Dal Bati Churma", "price": 400, "category": "Mains", "available": true, "description": "Traditional Rajasthani meal", "prepTime": 25, "itemType": "special" },
+      { "id": "12-3", "name": "Chaas", "price": 40, "category": "Beverages", "available": true, "description": "Spiced buttermilk", "prepTime": 2, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Agent Jack's",
+    "cuisine": "Continental",
+    "waitTime": 15,
+    "status": "normal",
+    "image": "/restaurant-1.jpg",
+    "workloadPercent": 35,
+    "lat": 18.57,
+    "lng": 73.92,
+    "area": "Viman Nagar",
+    "rating": 4.2,
+    "menu": [
+      { "id": "13-1", "name": "Margherita Pizza", "price": 350, "category": "Pizza", "available": true, "description": "Classic cheese pizza", "prepTime": 15, "itemType": "normal" },
+      { "id": "13-2", "name": "Chicken Nachos", "price": 280, "category": "Appetizers", "available": true, "description": "Loaded nachos with chicken", "prepTime": 10, "itemType": "normal" },
+      { "id": "13-3", "name": "Pasta Carbonara", "price": 380, "category": "Pasta", "available": true, "description": "Creamy bacon pasta", "prepTime": 18, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Prems",
+    "cuisine": "Multi-cuisine",
+    "waitTime": 25,
+    "status": "busy",
+    "image": "/restaurant-2.jpg",
+    "workloadPercent": 65,
+    "lat": 18.53,
+    "lng": 73.89,
+    "area": "Koregaon Park",
+    "rating": 4.4,
+    "menu": [
+      { "id": "14-1", "name": "Butter Chicken", "price": 420, "category": "Mains", "available": true, "description": "Creamy tomato chicken", "prepTime": 20, "itemType": "normal" },
+      { "id": "14-2", "name": "Garlic Naan", "price": 60, "category": "Breads", "available": true, "description": "Oven-baked flatbread with garlic", "prepTime": 7, "itemType": "normal" },
+      { "id": "14-3", "name": "Fruit Punch", "price": 220, "category": "Beverages", "available": true, "description": "Mixed fruit drink", "prepTime": 5, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "1000 Oaks",
+    "cuisine": "Continental",
+    "waitTime": 45,
+    "status": "overloaded",
+    "image": "/restaurant-3.jpg",
+    "workloadPercent": 92,
+    "lat": 18.528,
+    "lng": 73.878,
+    "area": "Camp",
+    "rating": 4.6,
+    "menu": [
+      { "id": "15-1", "name": "Dal Khichadi", "price": 280, "category": "Mains", "available": true, "description": "Comforting lentil and rice", "prepTime": 15, "itemType": "normal" },
+      { "id": "15-2", "name": "Barbeque Chicken Wings", "price": 350, "category": "Appetizers", "available": true, "description": "Spicy BBQ wings", "prepTime": 15, "itemType": "normal" },
+      { "id": "15-3", "name": "Signature Pitcher", "price": 1200, "category": "Beverages", "available": true, "description": "Large mixed cocktail", "prepTime": 10, "itemType": "special" }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Little Italy",
+    "cuisine": "Italian",
+    "waitTime": 30,
+    "status": "busy",
+    "image": "/restaurant-4.jpg",
+    "workloadPercent": 70,
+    "lat": 18.53,
+    "lng": 73.83,
+    "area": "Shivajinagar",
+    "rating": 4.5,
+    "menu": [
+      { "id": "16-1", "name": "Bruschetta", "price": 310, "category": "Appetizers", "available": true, "description": "Toasted bread with tomato and garlic", "prepTime": 10, "itemType": "normal" },
+      { "id": "16-2", "name": "Gnocchi in Pink Sauce", "price": 480, "category": "Pasta", "available": true, "description": "Potato dumplings in creamy tomato sauce", "prepTime": 20, "itemType": "special" },
+      { "id": "16-3", "name": "Tiramisu", "price": 350, "category": "Desserts", "available": true, "description": "Coffee-flavored Italian dessert", "prepTime": 5, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Effingut",
+    "cuisine": "Brewery/Continental",
+    "waitTime": 20,
+    "status": "normal",
+    "image": "/restaurant-5.jpg",
+    "workloadPercent": 50,
+    "lat": 18.54,
+    "lng": 73.9,
+    "area": "Koregaon Park",
+    "rating": 4.6,
+    "menu": [
+      { "id": "17-1", "name": "The Hefeweizen", "price": 350, "category": "Brews", "available": true, "description": "Wheat beer with banana notes", "prepTime": 5, "itemType": "normal" },
+      { "id": "17-2", "name": "Fish and Chips", "price": 480, "category": "Mains", "available": true, "description": "Beer-battered fish", "prepTime": 18, "itemType": "normal" },
+      { "id": "17-3", "name": "Cajun Chicken Burger", "price": 420, "category": "Burgers", "available": true, "description": "Spicy chicken burger", "prepTime": 15, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Malaka Spice",
+    "cuisine": "Pan-Asian",
+    "waitTime": 40,
+    "status": "busy",
+    "image": "/restaurant-6.jpg",
+    "workloadPercent": 80,
+    "lat": 18.535,
+    "lng": 73.895,
+    "area": "Koregaon Park",
+    "rating": 4.7,
+    "menu": [
+      { "id": "18-1", "name": "Lotus Root Stem", "price": 380, "category": "Appetizers", "available": true, "description": "Crispy lotus root", "prepTime": 15, "itemType": "normal" },
+      { "id": "18-2", "name": "Top Hats", "price": 320, "category": "Appetizers", "available": true, "description": "Crispy fried cup treats", "prepTime": 12, "itemType": "normal" },
+      { "id": "18-3", "name": "Burmese Khao Suey", "price": 490, "category": "Mains", "available": true, "description": "Coconut curry noodles", "prepTime": 25, "itemType": "special" }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Hotel Shreyas",
+    "cuisine": "Maharashtrian",
+    "waitTime": 30,
+    "status": "busy",
+    "image": "/restaurant-1.jpg",
+    "workloadPercent": 75,
+    "lat": 18.52,
+    "lng": 73.842,
+    "area": "Apte Road",
+    "rating": 4.4,
+    "menu": [
+      { "id": "19-1", "name": "Special Shreyas Thali", "price": 420, "category": "Thalis", "available": true, "description": "Complete festive thali", "prepTime": 10, "itemType": "normal" },
+      { "id": "19-2", "name": "Ukadiche Modak", "price": 40, "category": "Desserts", "available": true, "description": "Single steamed modak", "prepTime": 15, "itemType": "special" },
+      { "id": "19-3", "name": "Alu Wadi", "price": 90, "category": "Snacks", "available": true, "description": "Colocasia leaf rolls", "prepTime": 8, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Terttulia",
+    "cuisine": "European",
+    "waitTime": 10,
+    "status": "normal",
+    "image": "/restaurant-2.jpg",
+    "workloadPercent": 30,
+    "lat": 18.538,
+    "lng": 73.89,
+    "area": "Koregaon Park",
+    "rating": 4.5,
+    "menu": [
+      { "id": "20-1", "name": "Eggs Benedict", "price": 380, "category": "Breakfast", "available": true, "description": "Poached eggs on muffin", "prepTime": 15, "itemType": "normal" },
+      { "id": "20-2", "name": "Chicken Sandwich", "price": 410, "category": "Lunch", "available": true, "description": "Grilled chicken breast sandwich", "prepTime": 12, "itemType": "normal" },
+      { "id": "20-3", "name": "Apple Tart", "price": 280, "category": "Desserts", "available": true, "description": "Classic apple pastry", "prepTime": 10, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Marz-O-Rin",
+    "cuisine": "Parsi/Snacks",
+    "waitTime": 5,
+    "status": "normal",
+    "image": "/restaurant-3.jpg",
+    "workloadPercent": 15,
+    "lat": 18.522,
+    "lng": 73.878,
+    "area": "Camp",
+    "rating": 4.6,
+    "menu": [
+      { "id": "21-1", "name": "Chutney Sandwich", "price": 80, "category": "Sandwiches", "available": true, "description": "Famous green chutney sandwich", "prepTime": 3, "itemType": "normal" },
+      { "id": "21-2", "name": "Chicken Sandwich", "price": 110, "category": "Sandwiches", "available": true, "description": "Shredded chicken in mayo", "prepTime": 3, "itemType": "normal" },
+      { "id": "21-3", "name": "Cold Coffee", "price": 100, "category": "Beverages", "available": true, "description": "Classic thick cold coffee", "prepTime": 4, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Kalyani Veg",
+    "cuisine": "South Indian/North Indian",
+    "waitTime": 20,
+    "status": "normal",
+    "image": "/restaurant-4.jpg",
+    "workloadPercent": 40,
+    "lat": 18.53,
+    "lng": 73.91,
+    "area": "Kalyani Nagar",
+    "rating": 4.2,
+    "menu": [
+      { "id": "22-1", "name": "Mysore Masala Dosa", "price": 140, "category": "South Indian", "available": true, "description": "Spicy chutney-lined dosa", "prepTime": 10, "itemType": "normal" },
+      { "id": "22-2", "name": "Veg Kolhapuri", "price": 290, "category": "North Indian", "available": true, "description": "Spicy mixed vegetable gravy", "prepTime": 15, "itemType": "normal" },
+      { "id": "22-3", "name": "Pav Bhaji", "price": 160, "category": "Snacks", "available": true, "description": "Spiced mashed vegetables with buttered bread", "prepTime": 12, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Arthur's Theme",
+    "cuisine": "European",
+    "waitTime": 35,
+    "status": "busy",
+    "image": "/restaurant-5.jpg",
+    "workloadPercent": 75,
+    "lat": 18.535,
+    "lng": 73.89,
+    "area": "Koregaon Park",
+    "rating": 4.6,
+    "menu": [
+      { "id": "23-1", "name": "Cottage Cheese Steak", "price": 490, "category": "Mains", "available": true, "description": "Grilled paneer with sauce", "prepTime": 20, "itemType": "normal" },
+      { "id": "23-2", "name": "Chicken Stroganoff", "price": 550, "category": "Mains", "available": true, "description": "Creamy mushroom and chicken", "prepTime": 22, "itemType": "special" },
+      { "id": "23-3", "name": "Crème Brûlée", "price": 310, "category": "Desserts", "available": true, "description": "Custard with burnt sugar top", "prepTime": 8, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Prem's",
+    "cuisine": "Multi-cuisine",
+    "waitTime": 15,
+    "status": "normal",
+    "image": "/restaurant-6.jpg",
+    "workloadPercent": 35,
+    "lat": 18.53,
+    "lng": 73.89,
+    "area": "Koregaon Park",
+    "rating": 4.3,
+    "menu": [
+      { "id": "24-1", "name": "Tandoori Chicken", "price": 450, "category": "Appetizers", "available": true, "description": "Full clay oven-roasted chicken", "prepTime": 25, "itemType": "special" },
+      { "id": "24-2", "name": "Paneer Makhanwala", "price": 340, "category": "Mains", "available": true, "description": "Creamy buttery paneer", "prepTime": 15, "itemType": "normal" },
+      { "id": "24-3", "name": "Lassi", "price": 90, "category": "Beverages", "available": true, "description": "Sweet yogurt drink", "prepTime": 5, "itemType": "normal" }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Nisarg",
+    "cuisine": "Seafood",
+    "waitTime": 30,
+    "status": "busy",
+    "image": "/restaurant-1.jpg",
+    "workloadPercent": 65,
+    "lat": 18.515,
+    "lng": 73.83,
+    "area": "Erandwane",
+    "rating": 4.6,
+    "menu": [
+      { "id": "25-1", "name": "Bombil Fry", "price": 320, "category": "Appetizers", "available": true, "description": "Crispy fried Bombay duck", "prepTime": 15, "itemType": "normal" },
+      { "id": "25-2", "name": "Fish Curry", "price": 450, "category": "Mains", "available": true, "description": "Malvani style fish curry", "prepTime": 20, "itemType": "normal" },
+      { "id": "25-3", "name": "Neer Dosa (3pcs)", "price": 80, "category": "Breads", "available": true, "description": "Thin rice pancakes", "prepTime": 10, "itemType": "normal" }
+    ]
+  }
+]

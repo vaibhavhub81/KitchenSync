@@ -1,0 +1,4 @@
+[
+  { "id": "log-001", "type": "order_accepted", "message": "Order A-042 accepted by Suvarnarekha Dining", "timestamp": "2024-01-15T14:32:00Z", "orderId": "ord-001", "restaurantId": "1" },
+  { "id": "log-002", "type": "external_load_added", "message": "External load +3 orders added (15 min)", "timestamp": "2024-01-15T14:00:00Z", "restaurantId": "2" }
+]
